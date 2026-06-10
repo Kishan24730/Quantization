@@ -3,7 +3,7 @@ Building Quantization Model from scratch to convert a FP32 model into FP16, Int1
 
 # ONNX to TFLite INT8 Quantization Pipeline 🚀
 
-A robust, production-ready Post-Training Quantization (PTQ) script designed to convert **FP32 ONNX** models into fully optimized **INT8 TFLite** models for edge device deployment (e.g., mobile, IoT, coral, embedded systems).
+A robust, production-ready Post-Training Quantization (PTQ) script designed to convert **FP32 ONNX** models into fully optimized **FP16, INT16 and INT8 TFLite** models for edge device deployment (e.g., mobile, IoT, coral, embedded systems).
 
 This wrapper explicitly handles common enterprise environment bottlenecks—such as corporate firewalls blocking network dependencies or dimensional layout mismatches ($NCHW \leftrightarrow NHWC$) during the conversion stream.
 
